@@ -7,17 +7,17 @@
 {  
   "@context":"http://schema.org",
   "@type":"Website",
-  "@id":"https:\/\/shenghsuehluo.github.io\/",
+  "@id":"localhost:1313\/",
   "author": {
     "@type": "Person",
     "name": "Sheng Hsueh Luo",
     
-    "image": "https://shenghsuehluo.github.io/images/myPhoto.jpg"
+    "image": "localhost:1313/"
     
   },
   "name":"Sheng Hsueh Luo",
   "description":"Template : Hugo tranquilpeak theme demo",
-  "url":"https:\/\/shenghsuehluo.github.io\/",
+  "url":"localhost:1313\/",
   "keywords":"[]"
 }
 
@@ -35,8 +35,8 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Sheng Hsueh Luo">
 <meta name="twitter:title" content="Sheng Hsueh Luo">
-<meta property="og:url" content="https://shenghsuehluo.github.io/">
-<meta property="twitter:url" content="https://shenghsuehluo.github.io/">
+<meta property="og:url" content="localhost:1313/">
+<meta property="twitter:url" content="localhost:1313/">
 <meta property="og:site_name" content="Sheng Hsueh Luo">
 <meta property="og:description" content="Template : Hugo tranquilpeak theme demo">
 <meta name="twitter:description" content="Template : Hugo tranquilpeak theme demo">
@@ -51,8 +51,8 @@
 
 
 
-  <meta property="og:image" content="https://shenghsuehluo.github.io/images/myPhoto.jpg">
-  <meta property="twitter:image" content="https://shenghsuehluo.github.io/images/myPhoto.jpg">
+  <meta property="og:image" content="localhost:1313/">
+  <meta property="twitter:image" content="localhost:1313/">
 
 
 
@@ -60,14 +60,14 @@
 
 
     <title>Sheng Hsueh Luo</title>
-    <link rel="icon" href="https://shenghsuehluo.github.io/favicon.png">
+    <link rel="icon" href="localhost:1313/favicon.png">
     
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://shenghsuehluo.github.io/index.xml">
-    
-
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="localhost:1313/index.xml">
     
 
-    <link rel="canonical" href="https://shenghsuehluo.github.io/">
+    
+
+    <link rel="canonical" href="#ZgotmplZ">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -75,11 +75,11 @@
     
     
     
-    <link rel="stylesheet" href="https://shenghsuehluo.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    <link rel="stylesheet" href="#ZgotmplZ" />
     
     
       
-        <link rel="stylesheet"  href="https://shenghsuehluo.github.io/css/myCss.css">
+        <link rel="stylesheet"  href="localhost:1313/">
       
     
     <link rel="stylesheet" href="static/css/myCss.css">
@@ -91,12 +91,60 @@
 
   <body>
     <div id="blog">
+      <div class="project_showup invisible">
+  <div class="project_mask"></div>
+  <div class="project_detail_showup invisible">
+    <div class="window" id="project_window">
+      <div class="panel">
+        <div class="slide project01_img_01"></div>
+        <div class="slide project01_img_02"></div>
+        <div class="slide project01_img_03"></div>
+      </div>
+        <i class="fas fa-angle-left prevImg"></i>
+        <i class="fas fa-angle-right nextImg"></i>
+    </div>
+    <div class="project_describe">
+      <div class="project_describe_panel" id="project_decribe_01">
+        <h3 class="project_detail_title">Vehicle Detection and Tracking Algorithm</h3>
+        <p class="project_detail_info">
+          This project provibes a solution to reduce the false detection under high density traffic condition.
+          Computer vision is used to detect vehicle on the road and extract the trajectory. 
+        </p>
+      </div>
+      <div class="project_describe_panel" id="project_decribe_02">
+        <h3 class="project_detail_title">BikeSim</h3>
+        <p class="project_detail_info">
+          BikeSim is a tool to simulate the mixed traffic flow in Asia. It can generate the traffic flow based on different theorem 
+          and display the amination. Using historic data is also availble.
+        </p>
+      </div>
+      <div class="project_describe_panel singleImg" id="project_decribe_03">
+        <h3 class="project_detail_title">Receipt Lottery</h3>
+        <p class="project_detail_info">
+          Receipt Lottery can detect and recognize the numbers of receipt. It by store the numbers of receipt as txt file
+        </p>
+      </div>
+      <div class="project_describe_panel singleImg" id="project_decribe_04">
+        <h3 class="project_detail_title">GUI for behavior analysis</h3>
+        <p class="project_detail_info">
+          GUI is a graphic user interface to assist analyzing the behavior of rider. GUI shows both the video and sensor data such as acceleration. 
+          It can used to find out if there's relationship between specific behaviors and data patterns.
+        </p>
+      </div>
+    </div>
+    <i class="fa fa-times fa-lg project_close"></i>
+  </div>
+</div>
+
       <header id="header" data-behavior="1">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <div id="header_link" class="myLinkStyle">
       <a href="#_aboutme">
         About me
+      </a>
+      <a href="#experience">
+        Experience
       </a>
       <a href="#projects">
         Projects
@@ -112,6 +160,9 @@
     <nav id="header_link_aside_nav">
       <a href="#_aboutme">
         About me
+      </a>
+      <a href="#experience">
+        Experience
       </a>
       <a href="#projects">
         Projects
@@ -131,8 +182,8 @@
     
     
       <div class="sidebar-profile">
-        <a href="https://shenghsuehluo.github.io/#about" aria-label="">
-          <img class="sidebar-profile-picture" src="https://shenghsuehluo.github.io/images/myPhoto.jpg" alt="" />
+        <a href="localhost:1313/#about" aria-label="">
+          <img class="sidebar-profile-picture" src="#ZgotmplZ" alt="" />
         </a>
         <h4 class="sidebar-profile-name">Sheng Hsueh Luo</h4>
         
@@ -142,7 +193,7 @@
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://shenghsuehluo.github.io/" title="Home">
+      <a class="sidebar-button-link " href="localhost:1313/" title="Home">
     
       <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
       
@@ -152,17 +203,7 @@
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://shenghsuehluo.github.io/post" title="Post">
-    
-      <i class="sidebar-button-icon fas fa-solid fa-pen" aria-hidden="true"></i>
-      
-      <span class="sidebar-button-desc">Post</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://shenghsuehluo.github.io/#about" title="About">
+      <a class="sidebar-button-link " href="localhost:1313/#about" title="About">
     
       <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
       
@@ -194,6 +235,16 @@
     </a>
   </li>
 
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/luo.s.xue/" target="_blank" rel="noopener" title="Facebook">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-facebook" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
 
     </ul>
     <ul class="sidebar-buttons">
@@ -212,13 +263,16 @@
                ">
         <header id="index_header" data-behavior="1">
   <div id="index_header_link" class="myLinkStyle">
-    <a href="https://shenghsuehluo.github.io/#_aboutme">
+    <a href="localhost:1313/#_aboutme">
       About me
     </a>
-    <a href="https://shenghsuehluo.github.io/#projects">
+    <a href="localhost:1313/#experience">
+      Experience
+    </a>
+    <a href="localhost:1313/#projects">
       Projects
     </a>
-    <a href="https://shenghsuehluo.github.io/#contact">
+    <a href="localhost:1313/#contact">
       Contact me
     </a>
   </div>
@@ -229,46 +283,182 @@
     About Me
   </h2>
   <div id="_aboutme_content" class="index_section_content">
-    <p>Hi My name is Sheng Hsueh Luo. You can call me Tony. I used to . Now I'm looking for a chance to join
-      1. 開發經驗
-      2. 尋找工作類型
-      3. 目前正積極尋找新的工作機會，並且不斷地在資訊科技領域內嘗試新的機會
+    <p>
+      Hi My name is Sheng Hsueh Luo. You can call me Tony. 
+      I have 4 years of working experience in semiconductor industry. I'm enjoying developing tools that help my works more efficient. 
+      Now I'm looking for a chance to become a software engineer.
     </p>
     <p>
-      skills : C++、
+      Here are a few technologies I've been used :
     </p>
+    <ul class="skill">
+      <li>
+        c++
+      </li>
+      <li>
+        java
+      </li>
+      <li>
+        golang
+      </li>
+      <li>
+        html、css、js
+      </li>
+    </ul>
   </div>
 </section>
 
-          <section id="projects" class="index_content">
+          <section id="experience" class="index_section">
+  <h2 class="index_heading">
+    Experience
+  </h2>
+  <div id="_experience_content" class="index_section_content">
+    <div id="jobs_selector">
+      <button id="jobs-3" class="jobs_button jobsBtn_selected" aria-controls="jobs-3" aria-selected="false">
+        <span>UCAPTEUR</span>
+      </button>
+      <button id="jobs-2" class="jobs_button" aria-controls="jobs-2" aria-selected="false">
+        <span>KYEC</span>
+      </button>
+      <button id="jobs-1" class="jobs_button" aria-controls="jobs-1" aria-selected="false">
+        <span>Education</span>
+      </button>
+    </div>
+    <div id="jobs_content">
+      <div id="jobs-3_content" class="jobs_content_panel jobsContent_selected">
+        <h3 class="job-title">
+          <span>
+            Senior Production Planner
+          </span>
+          <span class="job-company">
+            <a href="http://www.ultrachip.com/zh/habout.php?id=201" class="job-company-link" target="_blank">
+              @UCAPTEUR
+            </a>
+          </span>
+        </h3>
+        <p>Mar 2021 - Present</p>
+        <div>
+          <ul class="job_content_ul">
+              <li>Determine material requirements in advance according to the customer's forecast demand.</li>
+              <li>Plan and arrange production capacity to ensure maximum performance. </li>
+          </ul>
+        </div>
+      </div>
+      <div id="jobs-2_content" class="jobs_content_panel">
+        <h3 class="job-title">
+          <span>
+            Production Planner
+          </span>
+          <span class="job-company">
+            <a href="https://www.kyec.com.tw/en" class="job-company-link" target="_blank">
+              @KYEC
+            </a>
+          </span>
+        </h3>
+        <p>Dec 2017 - Feb 2021</p>
+        <div>
+          <ul class="job_content_ul">
+              <li>Arrange production schedule to meet the demand.</li>
+              <li>Collaborated with other departments to complete the projects.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="jobs-1_content" class="jobs_content_panel">
+        <h3 class="job-title">
+          <span>
+            Master of Management
+          </span>
+          <span class="job-company">
+            <a href="https://en.nycu.edu.tw/" class="job-company-link" target="_blank">
+              @NCTU
+            </a>
+          </span>
+        </h3>
+        <p>Sep 2015 - Aug 2017</p>
+        <div>
+          <ul class="job_content_ul">
+              <li>Majored in Transportation and Logistics Management</li>
+              <li>Analyzed the bottleneck of transportation network and made it more efficiently.</li>
+              <li>Route planning, network design, and system optimization.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <section id="projects" class="index_section">
     <h2 class="index_heading">
       Projects
     </h2>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
-    <div> test</div>
+    <div id="projects_content" class="index_section_content">
+      <div id="project01" class="projects_display">
+        <div>
+          <div class="project_intro">
+            <h2 class="project_title">Vehicle Recognition</h2>
+            <span class="project_lang">Matlab</span>
+          </div>
+          <div class="project_detail">
+            <button class="project_detail_button" project="01">
+              <span>More detail</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="project02" class="projects_display">
+        <div>
+          <div class="project_intro">
+            <h2 class="project_title">BikeSim</h2>
+            <span class="project_lang">JAVA</span>
+          </div>
+          <div class="project_detail">
+            <button class="project_detail_button" project="02">
+              <span>More detail</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="project03" class="projects_display">
+        <div>
+          <div class="project_intro">
+            <h2 class="project_title">Receipt Lottery</h2>
+            <span class="project_lang">C++</span>
+          </div>
+          <div class="project_detail">
+            <button class="project_detail_button" project="03">
+              <span>More detail</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="project04" class="projects_display">
+        <div>
+          <div class="project_intro">
+            <h2 class="project_title">GUI</h2>
+            <span class="project_lang">Matlab</span>
+          </div>
+          <div class="project_detail">
+            <button class="project_detail_button" project="04">
+              <span>More detail</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
   </section>
   
-          <div id="contact">
-  
-</div>
+          <section id="contact" class="index_section">
+  <h2 class="index_heading">
+    Get In Touch
+  </h2>
+  <div id="contact_content" class="index_section_content">
+    <p>Whether you have a question or just want to say hi, please contact me!</p>
+    <a class="sidebar-button-link" href="mailto:tonylo159@gmail.com" target="blank">
+      <i class="far fa-envelope fa-2x"></i>
+    </a>
+  </div>
+</section>
 
         </section>
         <footer id="footer" class="main-content-wrap">
@@ -286,7 +476,7 @@
       <i class="fa fa-times"></i>
     </div>
     
-      <img id="about-card-picture" src="https://shenghsuehluo.github.io/images/myPhoto.jpg" alt="" />
+      <img id="about-card-picture" src="#ZgotmplZ" alt="" />
     
     <h4 id="about-card-name">Sheng Hsueh Luo</h4>
     
@@ -312,7 +502,7 @@
     
   
     
-      <div id="cover" style="background-image:url('https://shenghsuehluo.github.io/images/cover.jpg');"></div>
+      <div id="cover" style="background-image:url('#ZgotmplZ');"></div>
     
   
 
@@ -325,7 +515,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-<script src="https://shenghsuehluo.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+<script src="#ZgotmplZ"></script>
 
 
   
@@ -369,11 +559,19 @@
   
 
   
-    <script src="https://shenghsuehluo.github.io/js/index_header.js"></script>
+    <script src="localhost:1313/"></script>
   
 
   
-    <script src="https://shenghsuehluo.github.io/js/aside.js"></script>
+    <script src="localhost:1313/"></script>
+  
+
+  
+    <script src="localhost:1313/"></script>
+  
+
+  
+    <script src="localhost:1313/"></script>
   
 
 

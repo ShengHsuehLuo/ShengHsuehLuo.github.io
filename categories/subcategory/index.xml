@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>subcategory on Sheng Hsueh Luo</title>
-    <link>https://shenghsuehluo.github.io/categories/subcategory/</link>
+    <link>localhost:1313/categories/subcategory/</link>
     <description>Recent content in subcategory on Sheng Hsueh Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jun 2022 19:26:01 +0800</lastBuildDate><atom:link href="https://shenghsuehluo.github.io/categories/subcategory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 19:26:01 +0800</lastBuildDate><atom:link href="localhost:1313/categories/subcategory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Experience</title>
-      <link>https://shenghsuehluo.github.io/post/experience/</link>
+      <link>localhost:1313/post/experience/</link>
       <pubDate>Sat, 25 Jun 2022 19:26:01 +0800</pubDate>
       
-      <guid>https://shenghsuehluo.github.io/post/experience/</guid>
+      <guid>localhost:1313/post/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>https://shenghsuehluo.github.io/post/about-me/</link>
+      <link>localhost:1313/post/about-me/</link>
       <pubDate>Sat, 25 Jun 2022 19:19:29 +0800</pubDate>
       
-      <guid>https://shenghsuehluo.github.io/post/about-me/</guid>
+      <guid>localhost:1313/post/about-me/</guid>
       <description></description>
     </item>
     

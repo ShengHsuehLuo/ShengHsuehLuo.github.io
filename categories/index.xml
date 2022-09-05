@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sheng Hsueh Luo</title>
-    <link>https://shenghsuehluo.github.io/categories/</link>
+    <link>localhost:1313/categories/</link>
     <description>Recent content in Categories on Sheng Hsueh Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jun 2022 19:26:01 +0800</lastBuildDate><atom:link href="https://shenghsuehluo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 19:26:01 +0800</lastBuildDate><atom:link href="localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>category</title>
-      <link>https://shenghsuehluo.github.io/categories/category/</link>
+      <link>localhost:1313/categories/category/</link>
       <pubDate>Sat, 25 Jun 2022 19:26:01 +0800</pubDate>
       
-      <guid>https://shenghsuehluo.github.io/categories/category/</guid>
+      <guid>localhost:1313/categories/category/</guid>
       <description></description>
     </item>
     
     <item>
       <title>subcategory</title>
-      <link>https://shenghsuehluo.github.io/categories/subcategory/</link>
+      <link>localhost:1313/categories/subcategory/</link>
       <pubDate>Sat, 25 Jun 2022 19:26:01 +0800</pubDate>
       
-      <guid>https://shenghsuehluo.github.io/categories/subcategory/</guid>
+      <guid>localhost:1313/categories/subcategory/</guid>
       <description></description>
     </item>
     

@@ -45,7 +45,7 @@
       // Detect the click on close button
       this.$closeBtn.click(function() {
         if (self.$sidebar.hasClass('pushed')) {
-          console.log("close sidebar");
+          //console.log("close sidebar");
           self.closeSidebar();
         }
       });
