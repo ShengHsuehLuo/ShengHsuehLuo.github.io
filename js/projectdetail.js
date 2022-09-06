@@ -67,7 +67,7 @@
             setTimeout(function() {
               self.$PrevImg.removeClass(self.$InvisibleCSS);
               self.$NextImg.removeClass(self.$InvisibleCSS);
-            },1000);
+            },200);
           }
           
           //self.$mask.addClass(self.$InvisibleCSS);
