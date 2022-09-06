@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sheng Hsueh Luo</title>
-    <link>localhost:1313/</link>
+    <link>https://shenghsuehluo.github.io/</link>
     <description>Recent content on Sheng Hsueh Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jun 2022 19:26:01 +0800</lastBuildDate><atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 19:26:01 +0800</lastBuildDate><atom:link href="https://shenghsuehluo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Experience</title>
-      <link>localhost:1313/post/experience/</link>
+      <link>https://shenghsuehluo.github.io/post/experience/</link>
       <pubDate>Sat, 25 Jun 2022 19:26:01 +0800</pubDate>
       
-      <guid>localhost:1313/post/experience/</guid>
+      <guid>https://shenghsuehluo.github.io/post/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>localhost:1313/post/about-me/</link>
+      <link>https://shenghsuehluo.github.io/post/about-me/</link>
       <pubDate>Sat, 25 Jun 2022 19:19:29 +0800</pubDate>
       
-      <guid>localhost:1313/post/about-me/</guid>
+      <guid>https://shenghsuehluo.github.io/post/about-me/</guid>
       <description></description>
     </item>
     
